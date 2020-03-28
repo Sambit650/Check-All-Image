@@ -13,7 +13,7 @@
 		D62220D5242C97F800B46092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62220D3242C97F800B46092 /* Main.storyboard */; };
 		D62220D7242C980000B46092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62220D6242C980000B46092 /* Assets.xcassets */; };
 		D62220DA242C980000B46092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62220D8242C980000B46092 /* LaunchScreen.storyboard */; };
-		D62220E2242C984500B46092 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D62220E1242C984500B46092 /* Inceptionv3.mlmodel */; };
+		D6AA6219242F842700F4E665 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D6AA6218242F842700F4E665 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		D62220D6242C980000B46092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D62220D9242C980000B46092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D62220DB242C980000B46092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D62220E1242C984500B46092 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		D6AA6218242F842700F4E665 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +63,8 @@
 				D62220D1242C97F800B46092 /* ViewController.swift */,
 				D62220D3242C97F800B46092 /* Main.storyboard */,
 				D62220D6242C980000B46092 /* Assets.xcassets */,
-				D62220E1242C984500B46092 /* Inceptionv3.mlmodel */,
 				D62220D8242C980000B46092 /* LaunchScreen.storyboard */,
+				D6AA6218242F842700F4E665 /* Inceptionv3.mlmodel */,
 				D62220DB242C980000B46092 /* Info.plist */,
 			);
 			path = imageRecognization;
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D62220D2242C97F800B46092 /* ViewController.swift in Sources */,
-				D62220E2242C984500B46092 /* Inceptionv3.mlmodel in Sources */,
+				D6AA6219242F842700F4E665 /* Inceptionv3.mlmodel in Sources */,
 				D62220CE242C97F800B46092 /* AppDelegate.swift in Sources */,
 				D62220D0242C97F800B46092 /* SceneDelegate.swift in Sources */,
 			);
